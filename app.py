@@ -1,8 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-
 import streamlit as st
+from PIL import Image
 from multiapp import MultiApp
 from apps import  uber, ceny, odkazy
 
@@ -23,6 +23,20 @@ a nad její rámec
 
 * všechny skripty byly napsány v jazyce Python
 """)
+
+
+with st.beta_expander('Získaný Certifikát'):
+        st.text('''
+        Certifikát z Datové Akademie
+        ''')
+        im_container = st.beta_container()
+    
+        img = Image.open('certifikat.jpg')    
+        with im_container:
+            st.image(img)
+
+
+
 
 app.add_app('Uber vs. Lyft v Bostnu', uber.app)
 app.add_app('Porovnání cen aktiv', ceny.app)
