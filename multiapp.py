@@ -52,7 +52,8 @@ class MultiApp:
             'Vyber téma',
             self.apps,
             format_func=lambda app: app['title'])
-
+        st.write(\n,
+                 \n)
         app['function']()
 
 
