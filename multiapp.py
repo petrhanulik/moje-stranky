@@ -47,7 +47,7 @@ class MultiApp:
         })
 
     def run(self):
-        app = st.sidebar.radio(
+        app = st.radio(
         #app = st.selectbox(
             'Vyber téma',
             self.apps,
