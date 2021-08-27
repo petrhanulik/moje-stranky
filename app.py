@@ -18,7 +18,7 @@ app = MultiApp()
 st.markdown("""
 # Prezentace mých projektů 
 
-Zde jsou tři odkazy na mé projekty naprogramované v rámci [Engeto Datové Akademie](https://engeto.cz/datova-akademie/) \n
+Zde jsou odkazy na mé projekty naprogramované v rámci [Engeto Datové Akademie](https://engeto.cz/datova-akademie/) \n
 a nad její rámec 
 
 * všechny skripty byly napsány v jazyce Python
@@ -31,7 +31,7 @@ with st.beta_expander('Získaný Certifikát'):
         ''')
         im_container = st.beta_container()
     
-        img = Image.open('apps/certifikat.jpg')    
+        img = Image.open('certifikat.jpg')    
         with im_container:
             st.image(img)
 
