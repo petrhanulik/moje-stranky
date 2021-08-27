@@ -16,7 +16,7 @@ app = MultiApp()
 
 
 st.markdown("""
-# Prezentace mých projektů 
+# PREZENTACE MÝCH PROJEKTŮ 
 
 Zde jsou odkazy na mé projekty naprogramované v rámci [Engeto Datové Akademie](https://engeto.cz/datova-akademie/) \n
 a nad její rámec 
@@ -41,7 +41,7 @@ st.text("""
 """)
 
 
-app.add_app('UNIVERSITY RANKING IN THE UK', ma.app)
+app.add_app('University ranking in the UK', ma.app)
 app.add_app('Uber vs. Lyft v Bostnu', uber.app)
 app.add_app('Porovnání cen aktiv', ceny.app)
 app.add_app('Odkazy na GitHub', odkazy.app)
