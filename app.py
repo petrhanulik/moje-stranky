@@ -31,11 +31,7 @@ with st.beta_expander('Získaný Certifikát'):
         ''')
         im_container = st.beta_container()
     
-<<<<<<< HEAD
         img = Image.open('apps/obrazek/certifikat.jpg')    
-=======
-        img = Image.open('apps/certifikat.JPG')    
->>>>>>> 8e455ba3a5182ce3d1b1011466c611f335a97be4
         with im_container:
             st.image(img)
 
