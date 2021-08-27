@@ -5,8 +5,8 @@ import seaborn as sns
 #import chart_studio.plotly as py
 import plotly.graph_objects as go
 #import chart_studio.plotly as py
-import chart_studio
-chart_studio.tools.set_credentials_file(username='petrhanulik', api_key='DM1dA4eDt2dEIRzfWsXG')
+#import chart_studio
+#chart_studio.tools.set_credentials_file(username='petrhanulik', api_key='DM1dA4eDt2dEIRzfWsXG')
 import streamlit as st
 from PIL import Image
 
