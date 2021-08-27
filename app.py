@@ -43,6 +43,7 @@ app.add_app('Porovnání cen aktiv', ceny.app)
 app.add_app('Odkazy na GitHub', odkazy.app)
 st.text("""
 
+
 """)
 app.run()
 
