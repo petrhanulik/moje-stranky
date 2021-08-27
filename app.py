@@ -41,6 +41,9 @@ app.add_app('UNIVERSITY RANKING IN THE UK', ma.app)
 app.add_app('Uber vs. Lyft v Bostnu', uber.app)
 app.add_app('Porovnání cen aktiv', ceny.app)
 app.add_app('Odkazy na GitHub', odkazy.app)
+st.text("""
+
+""")
 app.run()
 
 
