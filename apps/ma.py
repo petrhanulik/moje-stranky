@@ -13,7 +13,7 @@ from PIL import Image
 def app():
 
 
-    st.title('UNIVERSITY RANKING IN THE UK')
+    st.title('University ranking in the UK')
     st.text("""
 
     """)
