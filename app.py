@@ -34,7 +34,11 @@ with st.beta_expander('Získaný Certifikát'):
         img = Image.open('apps/obrazek/certifikat.JPG')    
         with im_container:
             st.image(img)
+        
+st.text("""
 
+
+""")
 
 
 app.add_app('UNIVERSITY RANKING IN THE UK', ma.app)
