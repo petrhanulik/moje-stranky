@@ -4,7 +4,7 @@
 import streamlit as st
 from PIL import Image
 from multiapp import MultiApp
-from apps import  uber, ceny, odkazy
+from apps import  uber, ceny, odkazy, ma
 
 st.set_page_config(
         page_title='Portfolio',
@@ -31,7 +31,7 @@ with st.beta_expander('Získaný Certifikát'):
         ''')
         im_container = st.beta_container()
     
-        img = Image.open('apps/obrazek/certifikat.jpg')    
+        img = Image.open('apps/certifikat.jpg')    
         with im_container:
             st.image(img)
 
