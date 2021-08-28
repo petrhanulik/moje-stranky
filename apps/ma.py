@@ -51,7 +51,7 @@ def app():
     with im_container:
         st.image(img)
 
-    @st.cache(allow_output_mutation=True)
+    @st.cache
     def fetch_data():
         df = pd.read_excel('rank.xlsx', engine='openpyxl')
         return df
