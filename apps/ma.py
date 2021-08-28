@@ -56,7 +56,7 @@ def app():
         df = pd.read_excel('rank.xlsx', engine='openpyxl')
         return df
 
-    df = fetch_data()
+    #df = fetch_data()
 
 
 
@@ -75,8 +75,8 @@ def app():
     st.write(df.shape)
     st.write(df.head())
 
-    #df1 = df.copy()
-    df1 = df[df['Ranking Year']==2015]
+    df1 = df.copy()
+    df1 = df1[df1['Ranking Year']==2015]
     df1 = df1.dropna()
     df1 = df1.sort_values('Ranking')
     df1 = df1[:20]
