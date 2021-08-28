@@ -56,7 +56,7 @@ def app():
         df = pd.read_excel('rank.xlsx', engine='openpyxl')
         return df
 
-    #df = fetch_data()
+    df = fetch_data()
 
 
 
@@ -88,7 +88,7 @@ def app():
     OK, but what else? which factors have a strong influence on the ranking in the evaluation? What else determinates ranking?
         """)
 
-    df.drop(['Ranking Year'],axis=1, inplace=True) # delete column with Ranking Year
+    #df.drop(['Ranking Year'],axis=1, inplace=True) # delete column with Ranking Year
     df.corr()
     df = df.sort_values('Ranking')
     df['NSS Teaching (%)'] = df['NSS Teaching (%)'].rank(ascending=False)     # is student satisfied with teaching
